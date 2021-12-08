@@ -1,0 +1,10 @@
+.error-label{
+    text-align: center;
+    background: #ec7e7e;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    color: white;
+    font-family: monospace;
+    font-size: 13px;
+}

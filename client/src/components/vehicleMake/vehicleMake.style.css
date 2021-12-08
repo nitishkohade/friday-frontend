@@ -1,0 +1,8 @@
+.vehicle-make {
+    display: flex;
+    flex-direction: column;
+    height: 85px;
+    max-width: 400px;
+    width: 100%;
+    min-width: 200px;
+}

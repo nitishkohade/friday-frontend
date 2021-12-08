@@ -1,0 +1,23 @@
+.vehicle-screen {
+    display: flex;
+    flex-direction: column;
+    padding: 0 14px;
+}
+
+.vehicle-screen .save-make-model {
+    display: flex;
+    justify-content: center;
+}
+
+.make-model {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 20px;
+        place-items: center;
+    }
+
+@media only screen and (max-width:600px){
+    .make-model {
+        grid-template-columns: 2fr;
+    }
+}

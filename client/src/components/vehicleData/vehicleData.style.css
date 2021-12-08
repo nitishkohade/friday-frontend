@@ -1,0 +1,59 @@
+.vehicle-data {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 80px;
+    grid-gap: 10px;
+    margin: 20px 0;
+    place-items: center;
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width:1160px){
+    .vehicle-data {
+        grid-template-columns: repeat(6, 1fr);
+    }
+ }
+
+ @media only screen and (min-width: 850px) and (max-width:1000px){
+    .vehicle-data {
+        grid-template-columns: repeat(5, 1fr);
+    }
+ }
+
+ @media only screen and (min-width: 680px) and (max-width:850px){
+    .vehicle-data {
+        grid-template-columns: repeat(4, 1fr);
+    }
+ }
+
+ @media only screen and (min-width: 520px) and (max-width:680px){
+    .vehicle-data {
+        grid-template-columns: repeat(3, 1fr);
+    }
+ }
+
+ @media only screen and (max-width:520px){
+    .vehicle-data {
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+
+.vehicle-data .vehicle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+.vehicle-data .vehicle:nth-child(odd) {
+    background: #e7a922;
+}
+
+.vehicle-data .vehicle:nth-child(even) {
+    background: #203fee;
+}

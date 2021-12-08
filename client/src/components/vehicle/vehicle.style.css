@@ -1,0 +1,6 @@
+.empty-vehicle-list {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 15px;
+}

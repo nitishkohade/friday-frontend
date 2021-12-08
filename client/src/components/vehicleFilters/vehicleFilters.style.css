@@ -1,0 +1,49 @@
+.vehicle-filters {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-gap: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border: 0px solid #dacac1;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+@media only screen and (max-width:900px){
+    .vehicle-filters {
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+    }
+ }
+
+ @media only screen and (max-width:750px){
+    .vehicle-filters {
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+ }
+
+ @media only screen and (max-width:550px){
+    .vehicle-filters {
+        grid-template-columns: 2fr 2fr;
+    }
+ }
+
+ @media only screen and (max-width:400px){
+    .vehicle-filters {
+        grid-template-columns: 2fr;
+    }
+ }
+
+ .vehicle-filters .filter {
+     margin-top: 5px;
+ }
+
+ .vehicle-fieldset {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background: white;
+ }
+
+ .vehicle-fieldset legend{
+    display: contents;
+ }
